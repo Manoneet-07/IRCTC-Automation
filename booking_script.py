@@ -155,14 +155,14 @@ if __name__ == "__main__":
     driver = uc.Chrome(options=options)
     driver.maximize_window()
     # User credentials and journey date
-    USERNAME = "USERNAME"
-    PASSWORD = "PASSWORD"
-    JOURNEY_DATE = "15/04/2024"  # User should replace 'dd/mm/yyyy' with the actual date
-    source_station = "PUNE"
-    destination_station = "AHMADNAGAR"
+    USERNAME = "manoneet1"
+    PASSWORD = "Manoneet@07."
+    JOURNEY_DATE = "06/04/2024"  # User should replace 'dd/mm/yyyy' with the actual date
+    source_station = "MUMBAI"
+    destination_station = "DELHI"
     open_irctc(driver, USERNAME, PASSWORD)
     input_station_details(driver, JOURNEY_DATE,source_station,destination_station)
-    passengers = [('John Doe', 30, 'Male'), ('Jane Doe', 28, 'Female')]
+    passengers = [('Manoneet Phogat', 22, 'Male')]
     """
     Infant Ages : 
     Below one year
